@@ -1,0 +1,329 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: 4rem;
+    margin-top: -32px;
+    color: goldenrod;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(148, 13, 13, 0.097) 0px 6px 48px, rgba(0, 0, 0, 0.098) 0px 4px 4px;
+    position: fixed;
+}
+
+header p {
+    padding-left: 6rem;
+}
+header a {
+    text-decoration: none;
+    color: goldenrod;
+    font-weight: 10rem;
+}
+
+header a:hover {
+    color: rgba(175, 131, 20, 0.946);
+}
+
+header p:hover {
+    color: rgba(175, 131, 20, 0.946);
+}
+
+header ul {
+    padding-right: 6rem;
+    gap: 40px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+    text-align: center;
+    color: goldenrod;
+    font-size: 3rem;
+    padding-top: 5rem;
+}
+
+.haut {
+    text-align: center;
+}
+
+h2 button {
+    padding: 20px;
+    border-radius: 2px 2px;
+    border: none;
+    color: white;
+    background-color: rgba(218, 165, 32, 0.794);
+}
+
+h2 button:hover {
+    background-color: rgba(175, 131, 20, 0.946);
+    cursor: pointer;
+}
+
+.photohaut {
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.liltrait {
+    width: 6%;
+}
+
+h3 {
+    text-align: center;
+    font: bold 1em sans-serif;
+}
+
+.temoignages {
+    display: flex;
+    justify-content: space-around;
+    gap: 6rem;
+    padding-top: 2rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
+}
+
+.stars {
+    color: rgb(255, 217, 0);
+    display: flex;
+}
+
+.stars div {
+    color: grey;
+}
+
+.rediger {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+}
+
+.rediger a {
+    text-decoration: none;
+    color: goldenrod;
+    border-bottom: solid 1px black;
+}
+
+.rediger a:hover {
+    color: rgba(175, 131, 20, 0.946);
+}
+.figure {
+    display: flex;
+    justify-content: center;
+}
+.voir {
+    text-align: right;
+    margin-right: 15rem;
+}
+.voir a {
+    font-size: 19px;
+    color: black;
+    text-decoration-line: underline;
+    text-decoration-color: goldenrod;
+}
+.voir a:hover {
+    color: rgba(175, 131, 20, 0.946);
+}
+
+.iframe {
+    display: flex;
+    justify-content: center;
+}
+
+.infos {
+    margin-top: 1.5rem;
+}
+.infos2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.infos2 h4{
+    text-align: center;
+}
+.coordonnees a {
+    padding: 10px;
+    border-radius: 2px 2px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(218, 165, 32, 0.794);
+}
+.adresse h4{
+    text-align: left;
+    padding-left: 18px;
+}
+
+.adresse a {
+    padding: 10px;
+    border-radius: 2px 2px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(218, 165, 32, 0.794);
+    text-align: center;
+}
+.horaires h4{
+    text-align: right;
+}
+.horaires li {
+    text-align: right;
+    list-style: none;
+}
+/* ------------------------- footer------------------------------------------------------- */
+
+.traitfooter {
+    width: 80%;
+}
+
+.bas {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(128, 124, 124);
+}
+
+/* -------------------------Page galerie------------------------------------------------------- */
+
+.galerie {
+    display: flex;
+    grid-column: 3;
+    padding-bottom: 6rem;
+}
+
+/* -------------------------Page Contacts------------------------------------------------------- */
+
+#feuille {
+    box-shadow: 3px 2px 18px rgb(0 0 0 / 65%);
+    border-radius: 5px;
+    background-color: goldenrod;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1080px;
+    height: 512px;
+    width: 60%;
+    margin-bottom: 80px;
+}
+
+.connexion {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.envoyer {
+    
+}
+
+.envoyer button {
+    cursor: pointer;
+}
+
+/* -------------------------Page Connexion------------------------------------------------------- */
+
+.traitconnexion{
+    width: 20rem;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 36rem;
+} 
+
+.inscription {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    border-radius: 2px;
+    
+}
+.inscription h2 {
+    text-align: center;
+}
+.inscription input {
+    width: 320px;
+}
+
+.connexion{
+    row-gap: 8px;
+
+}
+.connexion h2 {
+    text-align: center;
+}
+
+.oublie {
+
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+
+
+.bouton {
+    background-color: rgb(232, 230, 230);
+}
+.bouton:hover {
+    background-color: rgb(181, 180, 178);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    #feuille {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .traitconnexion{
+        display:;
+    }
+
+}
+
+/* -------------------------Page mot de passe oublié------------------------------------------------------- */
+.pagemdp {
+    display: block;
+}
+
+.pagemdp h2 {
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+    bottom: 95px;
+}
+
+.labelmail {
+    display: block;
+    position: relative;
+    left: 24%;
+}
+.labelmail input {
+    width: 40%;
+    height: 30px;
+}
+
+.boutonmdp a {
+    position: relative;
+    left: 50%;
+}
+.boutonmdp button {
+    position: relative;
+    left: 600px;
+    top: -2.3rem;
+    padding: 9px;
+
+}
